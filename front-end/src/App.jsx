@@ -1,12 +1,10 @@
 import React from 'react'
-import Login from './sessions/authentication/login'
-import FirstContent from './sessions/FirstContent'
+import SplashScreen from './session/SplashScreen'
 
 function App() {
   return (
-    <div className='bg-black'>
-      <FirstContent />
-      <Login />
+    <div className='bg-white'>
+      <SplashScreen />
     </div>
   )
 }
